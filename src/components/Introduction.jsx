@@ -31,7 +31,8 @@ function Introduction() {
           <div className="flex flex-col items-center my-10 text-sm">
 
           <p>Location : AB1</p>
-          <p>Location : April 17, 2025 (Thursday)</p>
+          <p>Date : April 17, 2025 (Thursday)</p>
+          <p>Time : 9:30 AM - 12:45 PM</p>
   
           <p className="text-white font-sans p-[1px] text-[15px] max-[550px]:text-[13px] max-[400px]:text-[12px]">
             Organizers : Core Team @ NCS
