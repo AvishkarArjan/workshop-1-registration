@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-// import backgroundimage from "../../src/assets/pexels-mahdibafande-14754067.jpg";
 import backgroundimage from "../../src/assets/bg-1.jpg";
 import logo from '../assets/ncs-logo.svg'; // adjust the path as needed
+import agentica from '../assets/agentica.svg';
 
 function Introduction() {
     
@@ -24,7 +24,10 @@ function Introduction() {
           <p className="text-[15px] text-[rgb(219,205,190)] tracking-[30px] ml-[20px] mb-[50px] max-[550px]:mb-[40px] max-[400px]:tracking-[25px]">PRESENTS</p>
           
           <div className="text-center">
-          <h1 className="text-7xl italic w-full">Workshop on Agentic AI</h1>
+          <img src={agentica} width={800} alt="" />
+
+            
+          <h1 className="text-4xl italic w-full">Workshop on Agentic AI</h1>
 
           </div>
           

@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import backgroundimage from "../../src/assets/bg-1.jpg";
 import { CgSpinner } from "react-icons/cg";
 import logo from '../assets/ncs-logo.svg'; // adjust the path as needed
+import agentica from '../assets/agentica.svg';
 
 function Details() {
   const [checked, setChecked] = useState(false);
@@ -79,12 +80,15 @@ function Details() {
       <div className="flex lg:flex-row flex-col w-max-7xl gap-10 justify-between items-center my-15 m-3">
         {/* Details */}
         <div className="relative z-10 text-white  rounded-xl shadow-lg max-w-2xl w-full mx-4">
+        <div className="w-full mb-10">
+        <img src={agentica} className="" alt="" />
+        <p className="text-sm text-gray-500">The first ever workshop on Agentic AI <i>@JSS Noida.</i></p>
+        </div>
 
         {/* WORKSHOP PROJECT */}
         <section className="text-center mb-8">
-          <div className="flex justify-between">
-          <h2 className="text-3xl font-extrabold mb-3">🛠️ WORKSHOP PROJECT</h2>
-
+          <div className="flex items-center justify-between mb-3">
+          <h2 className="text-2xl font-extrabold">🛠️ Workshop Project</h2>
 
           </div>
           <div className="text-sm leading-relaxed text-left">
@@ -130,7 +134,10 @@ function Details() {
       {/* Form */}
       <div className="bg-black/50 backdrop-invert backdrop-opacity-10 p-4 relative z-10 w-full max-w-2xl shadow-2xl">
         <div className="flex justify-between">
-          <h2 className="text-white text-2xl font-bold mb-4 text-center">Registration Form</h2>
+          <div className="flex  flex-col items-start mb-4">
+          <h2 className="text-white text-2xl font-bold mb-1 text-center">Registration Form</h2>
+          <p className="text-gray-600 text-xs">Your details will be verified at the workshop.</p>
+          </div>
           <img src={logo} alt="" />
           
         </div>
