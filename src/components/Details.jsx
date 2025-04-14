@@ -192,8 +192,8 @@ function Details() {
               <option value="4th" className="text-white bg-black">4th Year</option>
               
             </select>
-            {errors.branch && (
-              <p className="text-red-600 text-sm mt-1">{errors.branch}</p>
+            {errors.year && (
+              <p className="text-red-600 text-sm mt-1">{errors.year}</p>
             )}
           </div>
 
