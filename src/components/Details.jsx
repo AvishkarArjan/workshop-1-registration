@@ -40,7 +40,7 @@ function Details() {
       if (!formData.email.trim()) newError.email = "Email ID is required.";
       if (!formData.year) newError.year = "Year is required.";
       if (!formData.branch.trim()) newError.branch = "Branch is required.";
-      if (!formData.admission_number.trim()) newError.admission_number = "Admission Number is required.";
+      if (!formData.admission_number.trim()) newError.admission_number = "Roll Number is required.";
       return newError;
     };
   
@@ -224,14 +224,14 @@ function Details() {
             )}
           </div>
           <div>
-            <label for="username" class="text-white text-xs block mb-1">#️⃣ Admission Number</label>
+            <label for="username" class="text-white text-xs block mb-1">#️⃣ Roll Number</label>
             <input
               type="text"
               name="admission_number"
               value={formData.admission_number}
               onChange={handleChange}
               className="bg-black/50 backdrop-invert backdrop-opacity-10 placeholder:text-gray-300 text-white border border-gray-100/20 rounded-sm py-0.5 px-2  placeholder:text-gray-400 focus:outline-none text-sm/6 w-full "
-              placeholder="Enter your Admission Number"
+              placeholder="Enter your Roll Number"
             />
             {errors.admission_number && (
               <p className="text-red-600 text-sm mt-1">{errors.admission_number}</p>
