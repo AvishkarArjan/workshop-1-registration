@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 // import backgroundimage from "./backgroundimage.avif";
 import backgroundimage from "../../src/assets/bg-1.jpg";
 import { CgSpinner } from "react-icons/cg";
+import logo from '../assets/ncs-logo.svg'; // adjust the path as needed
 
 function Details() {
   const [checked, setChecked] = useState(false);
@@ -130,7 +131,8 @@ function Details() {
       <div className="bg-black/50 backdrop-invert backdrop-opacity-10 p-4 relative z-10 w-full max-w-2xl shadow-2xl">
         <div className="flex justify-between">
           <h2 className="text-white text-2xl font-bold mb-4 text-center">Registration Form</h2>
-          <img src="src/assets/ncs-logo.svg" alt="" />
+          <img src={logo} alt="" />
+          
         </div>
 
         <form className="space-y-4" onSubmit={handleSubmit}>

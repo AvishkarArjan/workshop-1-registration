@@ -1,5 +1,6 @@
 import React from "react";
 import backgroundimage from "../../src/assets/bg-1.jpg";
+import logo from '../assets/ncs-logo.svg'; // adjust the path as needed
 
 function FinalThankYou() {
   return (
@@ -10,7 +11,7 @@ function FinalThankYou() {
       }}
     >
       <div className="flex flex-col items-center text-white text-center max-w-[1000px] mx-auto px-4">
-        <img src="src/assets/ncs-logo.svg" width={180} alt="NCS Logo" className="mb-6" />
+        <img src={logo} width={180} alt="" />
 
         <p className="text-[15px] text-[rgb(219,205,190)] tracking-[3px] mb-2">
           NIBBLE COMPUTER SOCIETY
