@@ -18,8 +18,8 @@ function Introduction() {
               backgroundImage:
                 `url(${backgroundimage})`,
             }}>
-        <div className="flex flex-col max-w-[1200px] w-full mx-auto items-center text-white">
-          <div className="flex w-4xl mx-auto justify-between">
+        <div className="flex flex-col max-w-[1000px] w-full mx-auto items-center text-white">
+          <div className="flex w-full mx-auto justify-between">
             <div className="flex flex-row items-end gap-1">
             <img src={jss} className="max-w-[80px]" alt="" />
             <div className="flex flex-col h-full py-3 justify-between max-w-[200px]">
@@ -31,11 +31,11 @@ function Introduction() {
 
           </div>
           
-          <p className=" font-bold ">Department of Computer Science & Engineering </p>
+          <p className="mt-10 font-bold ">Department of Computer Science & Engineering </p>
           <p className=" text-xs mt-3">In collaboration with </p>
           <p className="text-[15px] text-[rgb(219,205,190)] tracking-[3px]  mb-[5px] max-[400px]:tracking-[2px] max-[400px]:mt-[30px]">NIBBLE COMPUTER SOCIETY</p>
           
-          <p className="text-[15px] text-[rgb(219,205,190)] tracking-[30px] ml-[20px]  max-[550px]:mb-[40px] max-[400px]:tracking-[25px]">PRESENTS</p>
+          <p className="text-xs">Presents</p>
           
           <div className="text-center">
           <img src={agentica} width={800} alt="" />
@@ -47,8 +47,8 @@ function Introduction() {
           
           <div className="flex flex-col items-center my-10 text-sm w-lg italic">
 
-          <div className="flex justify-between w-full">
-            <p>Location : AB1</p>
+          <div className="flex flex-col">
+            <p>Venue : AB1 - 301</p>
             <p>Date : April 17, 2025 (Thursday)</p>
             <p>Time : 9:30 AM - 12:45 PM</p>
           </div>
