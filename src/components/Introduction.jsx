@@ -1,7 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import backgroundimage from "../../src/assets/bg-1.jpg";
-import logo from '../assets/ncs-logo.svg'; // adjust the path as needed
+import logo from '../assets/ncs-logo.svg'; 
+import jss from '../assets/jsslogoicon.png'
 import agentica from '../assets/agentica.svg';
 
 function Introduction() {
@@ -18,10 +19,18 @@ function Introduction() {
                 `url(${backgroundimage})`,
             }}>
         <div className="flex flex-col max-w-[1200px] w-full mx-auto items-center text-white">
-          <img src={logo} width={200} alt="" />
-          <p className="text-[15px] text-[rgb(219,205,190)] tracking-[3px] mt-[50px] mb-[5px] max-[400px]:tracking-[2px] max-[400px]:mt-[30px]">NIBBLE COMPUTER SOCIETY</p>
+          <div className="flex w-4xl justify-between">
+          <img src={jss} className="max-w-[80px]" alt="" />
+          <img src={logo} width={150} alt="" />
+
+          </div>
+          <p className="text-sm">JSS Mahavidyapeetha</p>
+          <p className="text-[15px] text-[rgb(219,205,190)] tracking-[3px]  mb-[5px] max-[400px]:tracking-[2px] max-[400px]:mt-[30px]">JSS Academy of Technical Education Noida</p>
+          <p className=" font-bold ">Department of Computer Science & Engineering </p>
+          <p className=" text-xs mt-7">In collaboration with </p>
+          <p className="text-[15px] text-[rgb(219,205,190)] tracking-[3px]  mb-[5px] max-[400px]:tracking-[2px] max-[400px]:mt-[30px]">NIBBLE COMPUTER SOCIETY</p>
           
-          <p className="text-[15px] text-[rgb(219,205,190)] tracking-[30px] ml-[20px] mb-[50px] max-[550px]:mb-[40px] max-[400px]:tracking-[25px]">PRESENTS</p>
+          <p className="text-[15px] text-[rgb(219,205,190)] tracking-[30px] ml-[20px]  max-[550px]:mb-[40px] max-[400px]:tracking-[25px]">PRESENTS</p>
           
           <div className="text-center">
           <img src={agentica} width={800} alt="" />
@@ -31,15 +40,14 @@ function Introduction() {
 
           </div>
           
-          <div className="flex flex-col items-center my-10 text-sm">
+          <div className="flex flex-col items-center my-10 text-sm w-lg italic">
 
-          <p>Location : AB1</p>
-          <p>Date : April 17, 2025 (Thursday)</p>
-          <p>Time : 9:30 AM - 12:45 PM</p>
+          <div className="flex justify-between w-full">
+            <p>Location : AB1</p>
+            <p>Date : April 17, 2025 (Thursday)</p>
+            <p>Time : 9:30 AM - 12:45 PM</p>
+          </div>
   
-          <p className="text-white font-sans p-[1px] text-[15px] max-[550px]:text-[13px] max-[400px]:text-[12px]">
-            Organizers : Core Team @ NCS
-          </p>
   
           </div>
           
