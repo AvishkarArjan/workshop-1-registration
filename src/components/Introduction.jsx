@@ -20,35 +20,34 @@ function Introduction() {
             }}>
         <div className="flex flex-col max-w-[1000px] w-full mx-auto items-center text-white">
           <div className="flex w-full mx-auto justify-between">
-            <div className="flex flex-row items-end gap-1">
-            <img src={jss} className="max-w-[80px]" alt="" />
+            <div className="flex flex-row items-center gap-1">
+            <img src={jss} className="max-w-[50px]" alt="" />
             <div className="flex flex-col h-full py-3 justify-between max-w-[200px]">
             <p className="text-xs">JSS Mahavidyapeetha</p>
             <p className="text-xs font-bold">JSS Academy of Technical Education Noida</p>
             </div>
              </div>
-          <img src={logo} width={150} alt="" />
+          <img src={logo} width={100} alt="" />
 
           </div>
           
-          <p className="mt-10 font-bold ">Department of Computer Science & Engineering </p>
-          <p className=" text-xs mt-3">In collaboration with </p>
-          <p className="text-[15px] text-[rgb(219,205,190)] tracking-[3px]  mb-[5px] max-[400px]:tracking-[2px] max-[400px]:mt-[30px]">NIBBLE COMPUTER SOCIETY</p>
+          <p className="mt-10  font-bold text-center">Department of Computer Science & Engineering </p>
+          <p className=" text-xs ">In collaboration with Nibble Computer Society</p>
           
-          <p className="text-xs">Presents</p>
+          <p className="text-xs mb-3">Presents</p>
           
           <div className="text-center">
           <img src={agentica} width={800} alt="" />
 
             
-          <h1 className="text-4xl italic w-full">Workshop on Agentic AI</h1>
+          <h1 className="text-2xl italic w-full">Workshop on Agentic AI</h1>
 
           </div>
           
           <div className="flex flex-col items-center my-10 text-sm w-lg italic">
 
           <div className="flex flex-col">
-            <p>Venue : AB1 - 301</p>
+            <p>Venue : AB1, Room 301</p>
             <p>Date : April 17, 2025 (Thursday)</p>
             <p>Time : 9:30 AM - 12:45 PM</p>
           </div>
