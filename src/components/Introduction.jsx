@@ -22,16 +22,17 @@ function Introduction() {
           <div className="flex w-full mx-auto justify-between">
             <div className="flex flex-row items-center gap-1">
             <img src={jss} className="max-w-[50px]" alt="" />
-            <div className="flex flex-col h-full py-3 justify-between max-w-[200px]">
-            <p className="text-xs">JSS Mahavidyapeetha</p>
-            <p className="text-xs font-bold">JSS Academy of Technical Education Noida</p>
+            <div className="flex flex-col h-full py-3 font-bold justify-between max-w-[180px]">
+            <p className="text-xs">JSS Academy of Technical Education, Noida</p>
             </div>
              </div>
           <img src={logo} width={100} alt="" />
 
           </div>
-          
-          <p className="mt-10  font-bold text-center">Department of Computer Science & Engineering </p>
+          <p className="mt-10 text-xs">JSS Mahavidyapeetha</p>
+            <p className="text-xs font-bold">JSS Academy of Technical Education Noida</p>
+            
+          <p className="font-bold text-center">Department of Computer Science & Engineering </p>
           <p className=" text-xs ">In collaboration with Nibble Computer Society</p>
           
           <p className="text-xs mb-3">Presents</p>
