@@ -19,15 +19,20 @@ function Introduction() {
                 `url(${backgroundimage})`,
             }}>
         <div className="flex flex-col max-w-[1200px] w-full mx-auto items-center text-white">
-          <div className="flex w-4xl justify-between">
-          <img src={jss} className="max-w-[80px]" alt="" />
+          <div className="flex w-4xl mx-auto justify-between">
+            <div className="flex flex-row items-end gap-1">
+            <img src={jss} className="max-w-[80px]" alt="" />
+            <div className="flex flex-col h-full py-3 justify-between max-w-[200px]">
+            <p className="text-xs">JSS Mahavidyapeetha</p>
+            <p className="text-xs font-bold">JSS Academy of Technical Education Noida</p>
+            </div>
+             </div>
           <img src={logo} width={150} alt="" />
 
           </div>
-          <p className="text-sm">JSS Mahavidyapeetha</p>
-          <p className="text-[15px] text-[rgb(219,205,190)] tracking-[3px]  mb-[5px] max-[400px]:tracking-[2px] max-[400px]:mt-[30px]">JSS Academy of Technical Education Noida</p>
+          
           <p className=" font-bold ">Department of Computer Science & Engineering </p>
-          <p className=" text-xs mt-7">In collaboration with </p>
+          <p className=" text-xs mt-3">In collaboration with </p>
           <p className="text-[15px] text-[rgb(219,205,190)] tracking-[3px]  mb-[5px] max-[400px]:tracking-[2px] max-[400px]:mt-[30px]">NIBBLE COMPUTER SOCIETY</p>
           
           <p className="text-[15px] text-[rgb(219,205,190)] tracking-[30px] ml-[20px]  max-[550px]:mb-[40px] max-[400px]:tracking-[25px]">PRESENTS</p>
