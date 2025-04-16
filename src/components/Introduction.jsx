@@ -13,7 +13,7 @@ function Introduction() {
           navigate("/Details");
       };
     return (
-      <section className="flex flex-col items-center justify-center py-10 px-4 flex h-screen bg-cover bg-center shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)]"
+      <section className="flex flex-col items-center justify-center py-10 px-4 flex h-screen bg-cover bg-center shadow-[inset_0_0_0_2000px_rgba(0,0,0,0.5)] mm overflow-auto "
       style={{
               backgroundImage:
                 `url(${backgroundimage})`,
